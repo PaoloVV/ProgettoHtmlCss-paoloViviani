@@ -306,7 +306,7 @@
         .project-container{
             display: grid;
             width: 100%;
-            grid-template-columns: 1fr 1fr;
+            grid-template-columns: 1fr;
         }
 
         .project-items{
@@ -468,7 +468,7 @@
                             display: none;
                         }
                         #messaggio-smart{
-                            display: inline-flex;
+                            display: inline-block;
                         }
 
                         .modal-body img{
