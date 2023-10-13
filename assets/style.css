@@ -310,21 +310,37 @@
         }  */
 
 /* PROJECTS */
+        .home-section3{
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            padding: 100px 7% 20px;
+            width: 100%;
+            min-height: 100vh;
+            background-color: midnightblue;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
         .project-container{
             display: grid;
-            width: 100%;
-            grid-template-columns: 1fr;
+            max-width: 100%;
+            grid-template-columns: 1fr 1fr;
         }
 
         .project-items{
             margin: 20px;
+            max-width: 100%;
         }
 
         .container-img-projects{
             background: #0ef;
             padding: 20px;
             margin-bottom: 10px;
+            max-width: 100%;
         }
+        
 
         #link-github{
             display: flex;
@@ -403,6 +419,16 @@
                             width: 100px;
                             background-color: #2ecc71;
                         }
+                        .project-container{
+                            display: flex;
+                            flex-direction: column;
+                            align-items: center;
+                        }
+
+                        .container-img-projects img{
+                            max-width: 200px;
+                            height: 100px;
+                        }
 
                         .form-content{
                             max-width: 85%;
@@ -470,6 +496,17 @@
 
                         .form-content{
                             max-width: 95%;
+                        }
+
+                        .project-container{
+                            display: flex;
+                            flex-direction: column;
+                            align-items: center;
+                            margin: auto 0;
+                        }
+                        .container-img-projects img{
+                            max-width: 150px;
+                            height: 75px;
                         }
                         /* #messaggio{
                             display: none;
