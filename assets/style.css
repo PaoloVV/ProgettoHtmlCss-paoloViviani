@@ -248,7 +248,7 @@
             background-repeat: no-repeat;
             background-size: cover;
         }
-        .form-content{
+        .form-content, .textarea-container{
             /* margin-bottom: 50px; */
             font-size: 20px;
             max-width: 70%;
@@ -263,7 +263,7 @@
             display: none;
             box-sizing: border-box;
             resize: none;
-            max-width: 75%;
+            max-width: 95%;
         }
 
         .input{
