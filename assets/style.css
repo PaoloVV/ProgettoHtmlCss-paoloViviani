@@ -263,7 +263,7 @@
             display: none;
             box-sizing: border-box;
             resize: none;
-            max-width: 95%;
+            max-width: 75%;
         }
 
         .input{
