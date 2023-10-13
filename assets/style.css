@@ -294,6 +294,13 @@
             color: red;
             border: 2px solid red;
         }
+
+        #error-message{
+            color: red;
+        }
+        #success-message{
+            color: lawngreen;
+        }
         /* .form-container{
             display: flex;
         } */
@@ -464,12 +471,12 @@
                         .form-content{
                             max-width: 95%;
                         }
-                        #messaggio{
+                        /* #messaggio{
                             display: none;
                         }
                         #messaggio-smart{
                             display: inline-block;
-                        }
+                        } */
 
                         .modal-body img{
                             width: 150px;
