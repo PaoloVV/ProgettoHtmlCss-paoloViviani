@@ -110,9 +110,13 @@ h3{
     color: #2ecc71;
     margin-right: 10px;
 }
+.contact-item span{
+    max-width: 100%;
+}
 
 .contact-item a{
     color: #e3e3e3;
+    max-width: 100%;
 }
 
 
@@ -182,12 +186,9 @@ h3{
     }
 
     .left-side{
-        /* display: flex;
-        flex-direction: row; */
         padding: 15px;
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1.5fr 1fr;
     }
 
     .left-side h3{
