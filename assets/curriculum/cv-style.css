@@ -11,6 +11,7 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    font-size: 16px;
 }
 
 h1{
@@ -21,7 +22,7 @@ h1{
 }
 h3{
     text-transform: uppercase;
-    margin: 20px 0;
+    margin: 10px 0;
 }
 .left-side h3{
     text-decoration: underline 2px #2ecc71;
@@ -54,7 +55,7 @@ h3{
 .container .right-side{
     position: relative;
     background: #e3e3e3;
-    padding: 40px;
+    padding: 30px;
 }
 
 .profile-text{
@@ -110,6 +111,10 @@ h3{
     margin-right: 10px;
 }
 
+.contact-item a{
+    color: #e3e3e3;
+}
+
 
 
 .formazione{
@@ -124,7 +129,7 @@ h3{
     justify-content: space-between;
 }
 
-
+/* CONTENT */
 
 .skills-container{
     display: grid;
@@ -143,6 +148,31 @@ h3{
 #git-img{
     width: 35px;
 }
+
+
+
+.link-btn-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 10px;
+}
+ .provaLink{
+    padding: 3%;
+    cursor: pointer;
+    background: #003147;
+    border: 3px solid #e3e3e3;
+    border-radius: 10px;
+    font-size: 20px;
+    color: #e3e3e3;
+    text-decoration: none;
+ }
+ .provaLink:hover{
+    background: #e3e3e3;
+    border: 3px solid #003147;
+    color: #003147;
+ }
 
 
 @media only screen and (max-width: 922px){

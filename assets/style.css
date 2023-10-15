@@ -13,6 +13,9 @@
             font-size: 56px;
             font-weight: 700;
         }
+        h2{font-size: 48px;
+          font-weight: 700;
+        }
 
         h3{
             font-size: 32px;
@@ -214,7 +217,7 @@
 
         .container{
             display: grid;
-            grid-template-columns: repeat(4, 1fr);
+            grid-template-columns: repeat(3, 1fr);
             justify-items: center;
             align-items: center;
             text-align: center;
@@ -339,6 +342,15 @@
             padding: 20px;
             margin-bottom: 10px;
             max-width: 100%;
+        }
+        .container-img-projects img{
+            max-width: 90%;
+            max-height: 100%;
+        }
+
+        .alert-project{
+            background: #fff;
+            color: red;
         }
         
 
