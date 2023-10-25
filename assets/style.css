@@ -235,6 +235,9 @@
         }
 
 /* SKILLS SECTION */
+        .card{
+            width: 18rem;
+        }
 
         .section-header{
             text-align: center;
@@ -283,6 +286,18 @@
         .card-text{
             height: 250px;
             overflow: hidden;
+        }
+
+        .btn-modal-link{
+            text-decoration: none;
+        }
+
+        .modal-body img{
+            width: 200px;
+        }
+
+        .modal-footer a{
+            text-decoration: none;
         }
 
 /* CONTACT ME */
